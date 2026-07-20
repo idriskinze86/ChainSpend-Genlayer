@@ -1,131 +1,75 @@
-# 💸 ChainSpend
+# ChainSpend-GenLayer
 
-A decentralized expense tracker built on the Monad Testnet that enables users to securely record, manage, search, and export expenses on-chain using an EVM-compatible wallet.
+## Overview
 
-![Home](screenshots/home.png)
+ChainSpend-GenLayer is a Web3 expense tracking application that demonstrates how decentralized finance (DeFi) expense management can evolve with AI-powered reasoning.
 
----
-
-## 🔗 Links
-
-- 🌐 Live Demo: https://chainspend.vercel.app
-- 💻 Source Code: https://github.com/idriskinze86/ChainSpend
+This project is based on ChainSpend, an on-chain expense tracker, and explores how GenLayer's Intelligent Contracts can enhance expense validation, categorization, fraud detection, and reimbursement dispute resolution.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔐 Connect with Rabby Wallet or any EVM-compatible wallet
-- ⛓️ Secure on-chain expense storage
-- 📊 Dashboard with expense statistics
-- 🔍 Search expenses by token, category, or note
-- 📤 Export expense history as CSV
-- 🔔 Toast notifications for user actions
-- 🌐 Automatic Monad Testnet network validation
-- 📱 Responsive and modern user interface
+- Connect an EVM wallet
+- Record expenses on-chain
+- View expense history
+- Track spending categories
+- Built with Solidity, React, Vite, and Ethers.js
 
 ---
 
-## 📸 Screenshots
+## Vision with GenLayer
 
-### 🏠 Home
+GenLayer enables applications to move beyond deterministic smart contracts by incorporating intelligent reasoning.
 
-Shows the landing page before connecting a wallet.
+Future enhancements include:
 
-![Home](screenshots/home.png)
-
-### 🔗 Wallet Connected
-
-Displays a connected wallet and wallet management options.
-
-![Wallet Connected](screenshots/wallet-connected.png)
-
-### 📊 Dashboard
-
-Overview of expenses, spending statistics, and expense history.
-
-![Dashboard](screenshots/dashboard.png)
-
-### 🔍 Search Expenses
-
-Quickly filter expenses by token, category, or note.
-
-![Search](screenshots/search.png)
-
-### 📤 CSV Export
-
-Export expense history to a CSV file.
-
-![CSV Export](screenshots/csv-export.png)
+- 🤖 AI-powered expense categorization
+- 🔍 Duplicate expense detection
+- ⚠️ Fraud and anomaly detection
+- ⚖️ Intelligent reimbursement dispute resolution
+- 📊 Spending insights and recommendations
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-### Frontend
-
+- Solidity
 - React
 - Vite
 - Ethers.js
-- CSS
-
-### Blockchain
-
-- Solidity
-- Hardhat
-- Monad Testnet
-
-### Deployment
-
-- Vercel
+- JavaScript
 
 ---
 
-## 🚀 Getting Started
+## Repository Structure
 
-### Clone the repository
-
-git clone https://github.com/idriskinze86/ChainSpend.git
-
-### Install dependencies
-
-npm install
-
-### Start the development server
-
-## npm run dev
-
-## 📂 Project Structure
-
-ChainSpend/
-├── contracts/ # Solidity smart contracts
-├── frontend/ # React + Vite application
-├── screenshots/ # README screenshots
-├── scripts/ # Deployment and utility scripts
-├── DEPLOYMENTS.md
-├── LICENSE
-├── package-lock.json
-├── package.json
-└── README.md
+contracts/
+frontend/
+scripts/
+screenshots/
+README.md
+DEPLOYMENTS.md
 
 ---
 
-## 🔮 Roadmap
+## Roadmap
 
-- 📈 Spending charts and analytics
-- 🌙 Dark mode
-- 📅 Monthly spending reports
-- 💱 Live token price conversion
-- 📱 Progressive Web App (PWA)
-
----
-
-## 👨‍💻 Author
-
-Adepegba Idris
-
-GitHub: https://github.com/idriskinze86
+- [x] Build on-chain expense tracker
+- [x] Wallet integration
+- [x] Expense history
+- [ ] GenLayer Intelligent Contract integration
+- [ ] AI-powered expense reasoning
+- [ ] Intelligent reimbursement system
 
 ---
 
-Built with ❤️ on Monad Testnet.
+## Screenshots
+
+(Add your screenshots here.)
+
+---
+
+## License
+
+MIT
