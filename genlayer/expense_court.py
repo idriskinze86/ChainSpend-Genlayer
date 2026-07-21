@@ -4,7 +4,7 @@
 from genlayer import *
 
 class ExpenseCourt(gl.Contract):
-
+    case_id: str
     claimant: str
     respondent: str
     amount: str
@@ -12,6 +12,7 @@ class ExpenseCourt(gl.Contract):
     status: str
 
     def __init__(self):
+        self.case_id="0"
         self.claimant = ""
         self.respondent = ""
         self.amount = ""
@@ -26,7 +27,7 @@ class ExpenseCourt(gl.Contract):
         amount: str,
         reason: str
     ) -> None:
-
+        self.case_id="1"
         self.claimant = claimant
         self.respondent = respondent
         self.amount = amount
@@ -36,6 +37,7 @@ class ExpenseCourt(gl.Contract):
     @gl.public.view
     def get_case(self) -> str:
         return (
+            "Case ID:" + self.case_id +
             "Claimant: " + self.claimant +
             ", Respondent: " + self.respondent +
             ", Amount: " + self.amount +
