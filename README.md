@@ -14,7 +14,15 @@ This project is based on ChainSpend, an on-chain expense tracker, and explores h
 - Record expenses on-chain
 - View expense history
 - Track spending categories
-- Built with Solidity, React, Vite, and Ethers.js
+- Expense Court (GenLayer Intelligent Contract)
+  - Submit reimbursement disputes
+  - Store claimant information
+  - Store respondent information
+  - Record disputed amounts
+  - Record dispute reasons
+  - Track dispute status
+  - Retrieve dispute details
+- Built with Solidity, React, Vite, Ethers.js, and GenLayer
 
 ---
 
@@ -32,6 +40,24 @@ Future enhancements include:
 
 ---
 
+## Expense Court (Current Progress)
+
+Expense Court is the first GenLayer Intelligent Contract integrated into ChainSpend.
+
+### Completed
+
+- ✅ V1: Basic dispute storage
+- ✅ V2: Structured dispute model
+- ✅ V3: Case ID support and successful deployment
+
+### Planned
+
+- ⏳ V4: Multiple dispute support
+- ⏳ V5: Evidence submission
+- ⏳ V6: AI-assisted dispute reasoning
+
+---
+
 ## Tech Stack
 
 - Solidity
@@ -39,6 +65,7 @@ Future enhancements include:
 - Vite
 - Ethers.js
 - JavaScript
+- GenLayer Intelligent Contracts
 
 ---
 
@@ -46,10 +73,12 @@ Future enhancements include:
 
 contracts/
 frontend/
+genlayer/
 scripts/
 screenshots/
 README.md
 DEPLOYMENTS.md
+roadmap.md
 
 ---
 
@@ -58,9 +87,9 @@ DEPLOYMENTS.md
 - [x] Build on-chain expense tracker
 - [x] Wallet integration
 - [x] Expense history
-- [ ] GenLayer Intelligent Contract integration
+- [x] GenLayer Intelligent Contract integration (Expense Court V3)
 - [ ] AI-powered expense reasoning
-- [ ] Intelligent reimbursement system
+- [ ] Intelligent reimbursement system (V4+)
 
 ---
 
